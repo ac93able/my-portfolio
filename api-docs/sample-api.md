@@ -4,7 +4,7 @@
 
 Base URL: https://api.taskflow.io/v1
 Authentication: Bearer token in Authorization header
---- 
+---
 
 | Parameter | Type | Required | Description |
 | --- | --- | --- | --- |
@@ -12,8 +12,8 @@ Authentication: Bearer token in Authorization header
 | due_date | string | No | ISO 8601 date string (YYYY-MM-DD) |
 | priority | string | No | low, medium, or high. Default: medium |
 | assignee_id | integer | No | User ID of the assignee |
- 
-### Example request 
+
+### Example request
 
 ```bash
 curl -X POST https://api.taskflow.io/v1/tasks \
@@ -27,7 +27,7 @@ curl -X POST https://api.taskflow.io/v1/tasks \
   }'
 ```
 
-### Example response (201 Created) 
+### Example response (201 Created)
 
 ```json
 {
@@ -41,7 +41,7 @@ curl -X POST https://api.taskflow.io/v1/tasks \
 }
 ```
 
-### Error responses 
+### Error responses
 
 | Status | Code | Description |
 | --- | --- | --- |
