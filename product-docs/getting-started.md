@@ -39,8 +39,8 @@ Labels help you filter and report on tasks later.
 
 ### What's next?
 
-- Learn how to create recurring tasks: [Recurring tasks](./recurring-tasks.md)
-- Invite your team to a shared workspace: [Team workspaces](./team-workspaces.md)
-- Connect TaskFlow to Slack: [Integrations](./integrations.md)
+- Learn how to create recurring tasks: Coming soon.
+- Invite your team to a shared workspace: Coming soon.
+- Connect TaskFlow to Slack: Coming soon.
 
 Testing Note
