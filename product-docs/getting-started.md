@@ -42,5 +42,3 @@ Labels help you filter and report on tasks later.
 - Learn how to create recurring tasks: Coming soon.
 - Invite your team to a shared workspace: Coming soon.
 - Connect TaskFlow to Slack: Coming soon.
-
-Testing Note
