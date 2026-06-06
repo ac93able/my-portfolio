@@ -43,11 +43,14 @@ jobs:
         with:
           ruby-version: 3.2
  
-      - name: Install Jekyll and GitHub Pages
-        run: gem install github-pages
+      - name: Install Ruby dependencies
+        run: |
+          gem install bundler
+          bundle config set path vendor/bundle
+          bundle install
  
       - name: Build Jekyll site
-        run: jekyll build --destination ./_site
+        run: bundle exec jekyll build --destination ./_site
  
       - name: Configure GitHub Pages
         uses: actions/configure-pages@v4
