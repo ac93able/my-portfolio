@@ -26,3 +26,35 @@ jobs:
  
       - name: Lint Markdown Files
         run: markdownlint "**/*.md" --ignore node_modules
+ 
+  build-and-deploy:
+    needs: lint
+    if: github.event_name == 'push' && github.ref == 'refs/heads/main'
+    runs-on: ubuntu-latest
+ 
+    steps:
+      - uses: actions/checkout@v4
+ 
+      - name: Setup Ruby
+        uses: ruby/setup-ruby@v1
+        with:
+          ruby-version: 3.2
+ 
+      - name: Install Jekyll and GitHub Pages
+        run: gem install github-pages
+ 
+      - name: Build Jekyll site
+        run: jekyll build --destination ./_site
+ 
+      - name: Configure GitHub Pages
+        uses: actions/configure-pages@v4
+ 
+      - name: Upload Pages Artifact
+        uses: actions/upload-pages-artifact@v1
+        with:
+          path: ./_site
+ 
+      - name: Deploy to GitHub Pages
+        uses: actions/deploy-pages@v1
+        with:
+          wait-for-live: true
