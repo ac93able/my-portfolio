@@ -15,6 +15,9 @@
     <a id="skip-to-content" href="#content">Skip to the content.</a>
 
     <header class="page-header" role="banner">
+      {% if site.title %}
+        <p class="site-title">{{ site.title }}</p>
+      {% endif %}
       <h1 class="project-name">{{ page.title | default: site.title | default: site.github.repository_name }}</h1>
       {% if page.url == "/" %}
         <h2 class="project-tagline">{{ site.description | default: site.github.project_tagline }}</h2>

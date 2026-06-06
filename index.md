@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "My Portfolio"
+title: "Anubhav Chaudhary"
 ---
 
 **Anubhav Chaudhary — Technical Writer: I help software teams write documentation their users actually read**
