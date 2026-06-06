@@ -2,3 +2,10 @@ theme: minima
 title: "Anubhav Chaudhary | Technical Writer"
 description: "Portfolio of API documentation, product guides, and technical content."
 author: "Anubhav Chaudhary"
+pages:
+  - title: "My Portfolio"
+    url: /
+  - title: "TaskFlow API Reference"
+    url: /api-docs/sample-api.html
+  - title: "Getting started with TaskFlow"
+    url: /product-docs/getting-started.html
