@@ -1,8 +1,11 @@
-## TaskFlow API Reference
+---
+layout: default
+title: "TaskFlow API Reference"
+---
 
-### Base URL: https://api.taskflow.io/v1
+**Base URL:** https://api.taskflow.io/v1
 
-### Authentication: Bearer token in Authorization header
+**Authentication:** Bearer token in Authorization header
 
 | Parameter | Type | Required | Description |
 | --- | --- | --- | --- |
@@ -11,7 +14,7 @@
 | priority | string | No | low, medium, or high. Default: medium |
 | assignee_id | integer | No | User ID of the assignee |
 
-### Example request
+#### Example request
 
 ```bash
 curl -X POST https://api.taskflow.io/v1/tasks \
@@ -25,7 +28,7 @@ curl -X POST https://api.taskflow.io/v1/tasks \
   }'
 ```
 
-### Example response (201 Created)
+#### Example response (201 Created)
 
 ```json
 {
@@ -39,7 +42,7 @@ curl -X POST https://api.taskflow.io/v1/tasks \
 }
 ```
 
-### Error responses
+#### Error responses
 
 | Status | Code | Description |
 | --- | --- | --- |
