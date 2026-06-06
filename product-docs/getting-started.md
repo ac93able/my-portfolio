@@ -1,4 +1,6 @@
-# Getting started with TaskFlow
+---
+title: Getting started with TaskFlow
+---
 
 This guide walks you through creating your first task in TaskFlow in under 5 minutes.
 

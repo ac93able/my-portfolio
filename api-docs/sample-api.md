@@ -1,4 +1,6 @@
-# TaskFlow API Reference
+---
+title: TaskFlow API Reference
+---
 
 ## Base URL: https://api.taskflow.io/v1
 

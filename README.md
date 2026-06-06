@@ -2,7 +2,7 @@
 title: My Portfolio
 ---
 
-**Anubhav Chaudhary | Technical Writer - I help software teams write documentation their users actually read**
+## Anubhav Chaudhary | Technical Writer - I help software teams write documentation their users actually read
 
 **What I write:** API references, developer guides, SDK docs, release notes, onboarding tutorials  
 **Tools:** VS Code, GitHub, Markdown, OpenAPI/Swagger, Confluence, Notion
