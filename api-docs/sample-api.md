@@ -3,7 +3,7 @@ layout: default
 title: "TaskFlow API Reference"
 ---
 
-# TaskFlow API Reference
+## TaskFlow API Reference
 
 **Base URL:** https://api.taskflow.io/v1
 
@@ -16,7 +16,7 @@ title: "TaskFlow API Reference"
 | priority | string | No | low, medium, or high. Default: medium |
 | assignee_id | integer | No | User ID of the assignee |
 
-#### Example request
+### Example request
 
 ```bash
 curl -X POST https://api.taskflow.io/v1/tasks \
@@ -30,7 +30,7 @@ curl -X POST https://api.taskflow.io/v1/tasks \
   }'
 ```
 
-#### Example response (201 Created)
+### Example response (201 Created)
 
 ```json
 {
@@ -44,7 +44,7 @@ curl -X POST https://api.taskflow.io/v1/tasks \
 }
 ```
 
-#### Error responses
+### Error responses
 
 | Status | Code | Description |
 | --- | --- | --- |

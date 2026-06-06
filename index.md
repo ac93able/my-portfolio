@@ -3,7 +3,7 @@ layout: default
 title: "My Portfolio"
 ---
 
-# My Portfolio
+## My Portfolio
 
 **Anubhav Chaudhary — Technical Writer: I help software teams write documentation their users actually read**
 
