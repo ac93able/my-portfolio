@@ -2,9 +2,3 @@ theme: minima
 title: "Anubhav Chaudhary | Technical Writer"
 description: "Portfolio of API documentation, product guides, and technical content."
 author: "Anubhav Chaudhary"
-minima:
-  nav_pages:
-    - index.md
-    - api-docs/sample-api.md
-    - product-docs/getting-started.md
-
